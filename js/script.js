@@ -17,3 +17,8 @@ function checkPalindroma(string){
         console.log('la stringa NON è palindroma');
     }
 }
+
+//dichiaro la var che contiene la parola inserita dall'user e assegno prompt
+let word = prompt('inserisci la parola da verificare')
+
+// chiamo la funzione
