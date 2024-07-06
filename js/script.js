@@ -23,3 +23,5 @@ let word = prompt('inserisci la parola da verificare');
 
 // chiamo la funzione
 checkPalindroma(word.toLocaleLowerCase());
+
+//finish
