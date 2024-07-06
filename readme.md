@@ -9,8 +9,9 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 Numero di push: 10 circa minimo
-Errori da evitare
 
+
+Errori da evitare
 1 - Non effettuare la chiamata di funzione;
 2 - Effettuare la chiamata di funzione in un console.log o in un alert ed assegnarlo ad una variabile
 3 - Se la funzione ha il return non assegnare la chiamata di funzione ad una variabile
@@ -31,3 +32,7 @@ PALINDROMA
 7. - verifico se la parola generata è uguale a quella inserita dall'user
     7.1 ? se sono uguali => la stringa è palindroma
     7.2 : altrimenti la stringa non è palindroma
+
+
+
+    PARI E DISPARI
