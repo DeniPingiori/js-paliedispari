@@ -34,5 +34,4 @@ PALINDROMA
     7.2 : altrimenti la stringa non è palindroma
 
 
-
-    PARI E DISPARI
+PARI E DISPARI
