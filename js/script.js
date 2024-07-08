@@ -25,3 +25,22 @@ let word = prompt('inserisci la parola da verificare');
 checkPalindroma(word.toLocaleLowerCase());
 
 //finish
+
+
+
+//PARI E DISPARI 
+
+//definisco la funzione che genera il num random
+function generateRandomNumber(sum) {
+    return Math.floor(Math.random()* 5 + 1);
+}
+
+//definisco funzione che verifica se la somma è pari o dispari
+function checkEvenOrOdd(sum) {
+    //verifico se la somma è pari o disapri(se è pari restituisco stringa pari, se è dispari
+    // restituisco stringa dispari)
+    if (sum % 2 === 0) {
+        return 'pari';
+    }
+    return 'dispari';
+}
