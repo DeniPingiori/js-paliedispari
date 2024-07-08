@@ -44,3 +44,26 @@ function checkEvenOrOdd(sum) {
     }
     return 'dispari';
 }
+
+//dichiaro var con il prompt per contenere pari o dispari
+let even_or_odd = prompt('inseridci la parola pari o dispari');
+
+//dichiaro una var che conterrà il val numerico compreso tra 1 e 5 inserito dall'user
+let number = parseInt(prompt('inserisci un val numerico tra 1 e 5'));
+
+//genero num per pc richiamando la funzione generateRandomNumeber
+let pc_number = generateRandomNumber();
+console.log(pc_number);
+
+//dichiaro una variabile a cui assegno il valore restituito dalla funzione
+let result = checkEvenOrOdd(sum); 
+
+// verifico che result e che la var che contiene pari o dispari abbiano lo stesso valore
+//se è così ha vinto user 
+if(even_or_odd.toLowerCase() === result) {
+    console.log('hai vinto user!')
+}
+//hai perso 
+else {
+    console.log('hai perso');
+}
