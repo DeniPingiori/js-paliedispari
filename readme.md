@@ -35,3 +35,20 @@ PALINDROMA
 
 
 PARI E DISPARI
+1. - definisco la funzione generateRandomNumber
+1.1 - definisco il val random generato attraverso la concatenazione delle funzione math.floor,
+    math.random
+2. -  definisco la funzione  checkevenOrOdd 
+2.1 - controllo che l'operatore  resto con somma sia pari a 0 
+2.2 - ? se è zero => restituisco true
+2.3 - : altrimenti restituisco false 
+3. dichiaro una var che conterrà il val pari o dispari inserito dall'utente
+4. dichiaro una var che conterrà il val numerico compreso tra 1 e 5 inserito dall'user
+5. dichiaro una var che contiene la somma dei num inseriti
+6. chiamo la funzione passandogli il valore contenuto nella var somma
+7. verifico il val rstituito
+7.1 ? se è true => è pari 
+7.2 : altrimenti è dispari 
+8. se il valore inserito come stringa è lo stesso di quello restituito dalla funzione
+    (a livello significativo)
+9. altrimenti ho perso
